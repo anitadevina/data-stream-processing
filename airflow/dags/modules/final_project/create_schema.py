@@ -19,15 +19,24 @@ def create_schema(conn_data, schema=None):
 
     path_query = os.path.join(settings.DAGS_FOLDER, "modules", "final_project", "query")
 
-    dwh_design = sqlparse.format(
-        open(os.path.join(path_query, "dwh_design.sql"), "r").read(),
+    dwh_stage = sqlparse.format(
+        open(os.path.join(path_query, "dwh_intermediate.sql"), "r").read(),
         strip_comments=True,
     ).strip()
+
+    dwh = sqlparse.format(
+        open(os.path.join(path_query, "dwh_dim_fact.sql"), "r").read(),
+        strip_comments=True,
+    ).strip()
+
+    queries = [dwh_stage, dwh]
 
     try:
         print("Creating schema...")
 
-        cursor_dwh.execute(dwh_design)
+        for query in queries:
+            cursor_dwh.execute(query)
+
         conn_dwh.commit()
 
         print("Schema has been created")

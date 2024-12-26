@@ -1,9 +1,5 @@
 import pandas as pd
-import urllib.parse
-
-from sqlalchemy import create_engine, types
 from sqlalchemy.sql import text
-from pymongo import MongoClient
 
 from modules.postgres_connection import get_conn as get_postgres_connection
 from modules.mysql_connection import get_conn as get_mysql_connection
@@ -60,17 +56,27 @@ def insert_structured_data(postgres_conf, mysql_conf, schema="public"):
 
     with engine_postgres.connect() as connection:
         connection.execute(
-            text(f"TRUNCATE {schema}.fact_employees RESTART IDENTITY CASCADE;")
+            text(
+                f"TRUNCATE {schema}.int_employee_managements RESTART IDENTITY CASCADE;"
+            )
         )
 
         df_employee.to_sql(
-            "fact_employees", connection, schema=schema, if_exists="append", index=False
+            "int_employee_managements",
+            connection,
+            schema=schema,
+            if_exists="append",
+            index=False,
         )
         df_employee_training.to_sql(
-            "dim_trainings", connection, schema=schema, if_exists="append", index=False
+            "int_training_developments",
+            connection,
+            schema=schema,
+            if_exists="append",
+            index=False,
         )
         df_employee_performance.to_sql(
-            "dim_performances",
+            "int_performance_managements",
             connection,
             schema=schema,
             if_exists="append",
@@ -110,12 +116,14 @@ def insert_unstructured_data(
 
     with engine_postgres.connect() as connection:
         connection.execute(
-            text(f"TRUNCATE {schema}.dim_recruitments RESTART IDENTITY CASCADE;")
+            text(
+                f"TRUNCATE {schema}.int_recruitment_selections RESTART IDENTITY CASCADE;"
+            )
         )
 
         if not df_recruitments.empty:
             df_recruitments.to_sql(
-                "dim_recruitments",
+                "int_recruitment_selections",
                 connection,
                 schema=schema,
                 if_exists="append",
@@ -123,19 +131,19 @@ def insert_unstructured_data(
             )
 
             connection.execute(
-                text(f"TRUNCATE {schema}.employee_candidate_maps RESTART IDENTITY;")
+                text(f"TRUNCATE {schema}.int_employee_candidate_maps RESTART IDENTITY;")
             )
 
             employee_candidate_maps = pd.read_sql(
                 f"""
-                    SELECT fe.employee_id, dr.candidate_id FROM {schema}.fact_employees fe 
-                    INNER JOIN {schema}.dim_recruitments dr ON dr."name" = fe."name" AND dr.gender = fe.gender AND dr.age = fe.age AND dr."position" = fe."position";                          
+                    SELECT iem.employee_id, irs.candidate_id FROM {schema}.int_employee_managements iem
+                    INNER JOIN {schema}.int_recruitment_selections irs ON irs."name" = iem."name" AND irs.gender = iem.gender AND irs.age = iem.age AND irs."position" = iem."position";
                 """,
                 connection,
             )
 
             employee_candidate_maps.to_sql(
-                "employee_candidate_maps",
+                "int_employee_candidate_maps",
                 connection,
                 schema=schema,
                 if_exists="append",
