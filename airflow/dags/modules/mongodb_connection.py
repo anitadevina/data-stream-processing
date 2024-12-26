@@ -1,3 +1,4 @@
+from airflow.exceptions import AirflowException
 from pymongo import MongoClient
 
 
@@ -7,8 +8,8 @@ def get_conn(conn_data):
             MongoClient(
                 f"mongodb://{conn_data.login}:{conn_data.password}@{conn_data.host}:{conn_data.port}/"
             )
-            if conn_data.login is not None and conn_data.password is not None
-            else MongoClient(f"mongodb://@{conn_data.host}:{conn_data.port}/")
+            if conn_data.login is not ""
+            else MongoClient(f"mongodb://{conn_data.host}:{conn_data.port}/")
         )
 
         db = server.admin
@@ -22,3 +23,4 @@ def get_conn(conn_data):
 
     except Exception as e:
         print("An error occurred:", e)
+        raise AirflowException("Error occurred")
