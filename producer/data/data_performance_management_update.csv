@@ -1,0 +1,557 @@
+EmployeeID,Name,ReviewPeriod,Rating,Comments
+102,Ralph Gonzalez,Q2 2023,2.6,Good performance
+103,Ian Perez,Q3 2023,1.5,Good performance
+104,Gregory Romero,Q4 2023,4.2,Good performance
+105,Dawn Johnson DDS,Q1 2023,4.7,Needs improvement
+107,Sarah Perry DDS,Q3 2023,4.7,Excellent performance
+109,Brian Wells,Q1 2023,2.3,Excellent performance
+110,Connie Coffey,Q2 2023,3.7,Excellent performance
+111,Anthony Riley,Q3 2023,3.0,Good performance
+112,Curtis Fisher,Q4 2023,2.6,Good performance
+115,William Robinson,Q3 2023,2.2,Excellent performance
+117,David Powell,Q1 2023,4.5,Excellent performance
+120,Louis Cunningham,Q4 2023,4.6,Good performance
+121,David Morris,Q1 2023,3.1,Excellent performance
+122,Sabrina King,Q2 2023,2.2,Very good performance
+124,Samuel Glass,Q4 2023,2.8,Good performance
+125,Gregory Romero,Q1 2023,3.5,Excellent performance
+126,Benjamin Campbell,Q2 2023,3.1,Excellent performance
+127,Angel Jones,Q3 2023,2.7,Excellent performance
+128,Aaron Adams,Q4 2023,1.6,Needs improvement
+129,Patricia Clayton,Q1 2023,3.4,Needs improvement
+131,Joel Smith,Q3 2023,3.5,Good performance
+134,Mary Olson,Q2 2023,4.0,Very good performance
+135,Jade Branch,Q3 2023,4.9,Very good performance
+137,Paul Fuller,Q1 2023,4.2,Excellent performance
+139,Ariana Diaz,Q3 2023,2.8,Very good performance
+140,William Thompson,Q4 2023,1.7,Excellent performance
+143,Clifford Duncan,Q3 2023,1.4,Very good performance
+145,Michael Castaneda,Q1 2023,4.7,Needs improvement
+147,John Payne,Q3 2023,2.6,Excellent performance
+149,Eric Johnson,Q1 2023,1.9,Excellent performance
+150,Margaret Torres,Q2 2023,2.7,Excellent performance
+153,Adrienne Moon,Q1 2023,4.0,Good performance
+154,Terri Figueroa,Q2 2023,3.5,Needs improvement
+157,Loretta Chang,Q1 2023,1.9,Needs improvement
+160,Megan Hill,Q4 2023,3.1,Good performance
+163,Victoria Shannon,Q3 2023,1.7,Good performance
+165,Jaime Reeves,Q1 2023,4.7,Very good performance
+168,Franklin Jarvis,Q4 2023,3.2,Very good performance
+169,Jacob Williams,Q1 2023,1.5,Very good performance
+170,Michelle Clay,Q2 2023,4.1,Needs improvement
+171,John Robertson,Q3 2023,4.5,Excellent performance
+173,Sharon Owens,Q1 2023,3.7,Excellent performance
+174,Jade Branch,Q2 2023,3.3,Excellent performance
+177,William Walker,Q1 2023,4.9,Very good performance
+179,Peter Beasley,Q3 2023,1.3,Very good performance
+180,Mary Walker,Q4 2023,2.6,Excellent performance
+181,Brian Townsend,Q1 2023,4.0,Very good performance
+186,Dr. Devon Reed,Q2 2023,4.4,Very good performance
+190,Kristine Newman,Q2 2023,2.7,Excellent performance
+191,Douglas Barker,Q3 2023,4.6,Needs improvement
+192,Kyle Jones,Q4 2023,3.7,Excellent performance
+195,Adrian Sullivan,Q3 2023,4.5,Good performance
+196,Daniel Short,Q4 2023,3.8,Very good performance
+197,Mitchell Rasmussen,Q1 2023,1.4,Excellent performance
+199,Natasha Rhodes,Q3 2023,4.3,Good performance
+203,Dr. Jason Mcneil,Q3 2023,3.5,Very good performance
+204,Ryan Garcia,Q4 2023,1.4,Good performance
+206,Sarah Tran,Q2 2023,1.7,Good performance
+209,Hunter Henson,Q1 2023,2.5,Good performance
+210,Ryan Romero,Q2 2023,1.2,Good performance
+214,Daniel Short,Q2 2023,5.0,Excellent performance
+215,Joseph Young,Q3 2023,3.9,Excellent performance
+216,Kristen Walker,Q4 2023,1.1,Needs improvement
+217,Michael Ramirez,Q1 2023,4.2,Excellent performance
+219,Nichole Stanley,Q3 2023,3.4,Excellent performance
+221,Michael Cooper,Q1 2023,2.7,Needs improvement
+224,Claudia Anderson,Q4 2023,2.2,Excellent performance
+226,Christina Garcia,Q2 2023,3.8,Excellent performance
+227,Kristin Henson,Q3 2023,1.2,Excellent performance
+229,Dawn Johnson DDS,Q1 2023,2.1,Very good performance
+234,Victoria Willis,Q2 2023,2.9,Very good performance
+235,Cynthia Andrews,Q3 2023,1.3,Excellent performance
+238,James Roy,Q2 2023,3.4,Very good performance
+240,Marc Tucker,Q4 2023,3.1,Very good performance
+243,Jeffrey Reyes,Q3 2023,1.7,Needs improvement
+244,Alexander Murray,Q4 2023,1.8,Good performance
+245,Christina Garcia,Q1 2023,2.8,Very good performance
+247,Brandi Larson,Q3 2023,1.4,Excellent performance
+248,Kylie Harrington,Q4 2023,3.7,Very good performance
+249,Timothy Lewis,Q1 2023,2.2,Very good performance
+251,Stephen Lopez,Q3 2023,3.0,Good performance
+252,Dr. Daniel Gregory,Q4 2023,3.9,Excellent performance
+264,Michael Elliott,Q4 2023,4.9,Excellent performance
+265,Samuel Jarvis,Q1 2023,1.9,Excellent performance
+266,Amber Yang,Q2 2023,2.1,Excellent performance
+269,Mary Ortega,Q1 2023,4.7,Very good performance
+272,Angela Love,Q4 2023,5.0,Very good performance
+274,Philip Mendoza,Q2 2023,3.9,Excellent performance
+278,Elizabeth Johnson,Q2 2023,4.4,Needs improvement
+284,Anna Jacobs,Q4 2023,1.1,Excellent performance
+285,Brooke Foster,Q1 2023,2.2,Needs improvement
+286,Kyle Hawkins,Q2 2023,4.0,Very good performance
+289,Joel Smith,Q1 2023,2.8,Excellent performance
+290,Brett Rodriguez,Q2 2023,4.1,Good performance
+293,Harry Day,Q1 2023,2.1,Good performance
+294,Clifford Duncan,Q2 2023,1.7,Needs improvement
+297,Sharon Bowman,Q1 2023,2.3,Needs improvement
+298,Mary Rodgers,Q2 2023,1.8,Excellent performance
+299,William Miller,Q3 2023,4.6,Very good performance
+304,Matthew Chase,Q4 2023,3.2,Very good performance
+306,Mr. Martin Lamb,Q2 2023,1.4,Good performance
+307,Shelby Scott,Q3 2023,1.0,Excellent performance
+308,Paul Moses,Q4 2023,4.0,Good performance
+314,Sandra Ramos,Q2 2023,2.7,Good performance
+317,Jason Ortiz,Q1 2023,1.8,Needs improvement
+318,Michelle Fischer,Q2 2023,1.1,Excellent performance
+319,Leah Hughes,Q3 2023,4.6,Good performance
+321,Michael Adams,Q1 2023,1.8,Very good performance
+322,Joshua Wilkerson,Q2 2023,5.0,Excellent performance
+323,Mary Rodgers,Q3 2023,4.0,Very good performance
+325,William Reeves,Q1 2023,1.6,Good performance
+326,Tiffany Gonzales,Q2 2023,1.0,Good performance
+327,Richard Long,Q3 2023,3.5,Needs improvement
+328,Ryan Romero,Q4 2023,4.9,Good performance
+332,Ricky Garrett,Q4 2023,3.4,Needs improvement
+334,Kevin Jones,Q2 2023,4.4,Very good performance
+339,Erica Byrd,Q3 2023,2.9,Excellent performance
+340,David Wright,Q4 2023,2.9,Very good performance
+342,Christine Lin,Q2 2023,2.7,Needs improvement
+344,Travis Peck,Q4 2023,1.7,Very good performance
+345,John Jones,Q1 2023,1.6,Needs improvement
+346,Joy Baker,Q2 2023,3.4,Needs improvement
+347,Natalie Sheppard,Q3 2023,1.5,Very good performance
+348,Victoria Jenkins,Q4 2023,1.0,Very good performance
+351,Jessica Clark,Q3 2023,1.5,Excellent performance
+352,Jamie Moore,Q4 2023,1.9,Needs improvement
+360,Angel Jones,Q4 2023,1.6,Needs improvement
+361,Jade Branch,Q1 2023,2.4,Good performance
+362,Jessica Bishop,Q2 2023,3.7,Needs improvement
+363,Jessica Bishop,Q3 2023,2.6,Very good performance
+365,Claudia Anderson,Q1 2023,3.3,Needs improvement
+366,Kathleen Sanchez,Q2 2023,4.0,Very good performance
+368,Sharon Harvey,Q4 2023,4.1,Excellent performance
+369,Angela Beasley,Q1 2023,3.4,Good performance
+370,Samuel Jarvis,Q2 2023,3.6,Good performance
+375,Ian Perez,Q3 2023,1.6,Excellent performance
+380,Patrick Hodges,Q4 2023,2.9,Needs improvement
+381,Andrew Garcia,Q1 2023,1.3,Excellent performance
+383,Angela Love,Q3 2023,4.9,Good performance
+385,Gloria Coleman,Q1 2023,3.0,Needs improvement
+386,Mitchell Rasmussen,Q2 2023,3.3,Needs improvement
+387,Joanne Liu,Q3 2023,3.9,Needs improvement
+388,Hannah Lang,Q4 2023,3.9,Excellent performance
+389,Mary Chan,Q1 2023,1.3,Very good performance
+390,Meredith Chan DVM,Q2 2023,2.0,Excellent performance
+393,David Hall,Q1 2023,3.5,Very good performance
+395,Joann Smith,Q3 2023,5.0,Excellent performance
+396,Jennifer Smith,Q4 2023,3.0,Good performance
+398,James Richmond,Q2 2023,2.5,Very good performance
+400,Dr. Daniel Gregory,Q4 2023,4.6,Good performance
+401,Pamela Blackburn,Q1 2023,4.4,Good performance
+403,Frank Palmer,Q3 2023,1.3,Very good performance
+405,Michelle Fischer,Q1 2023,3.9,Excellent performance
+406,Nicole Martin,Q2 2023,2.6,Good performance
+407,Anthony Villa,Q3 2023,4.1,Excellent performance
+408,Andrew Sanchez,Q4 2023,4.4,Excellent performance
+409,Lynn Knight,Q1 2023,1.8,Needs improvement
+410,Howard Grant,Q2 2023,4.6,Good performance
+420,Dawn Wilson,Q4 2023,2.7,Good performance
+423,William Weaver,Q3 2023,5.0,Good performance
+425,Mia Sullivan,Q1 2023,2.1,Very good performance
+428,Jessica Peters,Q4 2023,2.6,Very good performance
+429,Rebecca Wilson,Q1 2023,2.1,Good performance
+430,Sherry Ward,Q2 2023,1.6,Needs improvement
+431,Margaret Peterson,Q3 2023,4.0,Needs improvement
+432,Anthony Ho,Q4 2023,1.7,Good performance
+433,Amy Collier,Q1 2023,5.0,Good performance
+435,William Weaver,Q3 2023,4.0,Excellent performance
+438,Amber Owens,Q2 2023,2.7,Good performance
+440,Rachel Hanson,Q4 2023,4.5,Excellent performance
+442,Connor Moreno,Q2 2023,4.7,Good performance
+443,Jamie Bradley,Q3 2023,2.9,Excellent performance
+446,Emily Ortiz,Q2 2023,3.5,Good performance
+447,Madeline Flores,Q3 2023,4.9,Very good performance
+448,Margaret Lawrence,Q4 2023,1.4,Excellent performance
+452,Jessica Clark,Q4 2023,3.2,Excellent performance
+455,Erika Contreras,Q3 2023,1.7,Good performance
+459,Vanessa Mullins,Q3 2023,4.0,Excellent performance
+461,Kristine Newman,Q1 2023,4.7,Good performance
+462,Brandon Harris,Q2 2023,2.4,Very good performance
+463,Melissa Torres,Q3 2023,2.2,Good performance
+464,Mr. Donald Rivas,Q4 2023,3.5,Excellent performance
+466,Diane Miller,Q2 2023,3.1,Very good performance
+468,Emily Ortiz,Q4 2023,3.5,Good performance
+469,Anthony Price,Q1 2023,3.0,Needs improvement
+470,Allen Ray,Q2 2023,1.1,Needs improvement
+471,Patricia Hunt,Q3 2023,2.7,Good performance
+473,Eric Carr,Q1 2023,3.0,Good performance
+477,Jared Bishop,Q1 2023,3.3,Excellent performance
+478,Larry Hawkins,Q2 2023,3.5,Very good performance
+479,Tasha Mayo,Q3 2023,3.0,Needs improvement
+480,Kayla Calhoun,Q4 2023,5.0,Good performance
+481,Michelle Gomez,Q1 2023,1.4,Needs improvement
+484,Dana Rivera,Q4 2023,4.5,Needs improvement
+485,Anthony Gaines,Q1 2023,4.8,Good performance
+486,Kimberly Johnston,Q2 2023,2.7,Needs improvement
+488,Michael Adams,Q4 2023,2.4,Good performance
+489,Hannah Lang,Q1 2023,3.0,Good performance
+495,Patrick Avila,Q3 2023,4.9,Very good performance
+497,Rebecca Johnson,Q1 2023,2.6,Needs improvement
+499,Ian Buchanan,Q3 2023,4.8,Very good performance
+502,Crystal Hansen,Q2 2023,3.2,Good performance
+504,Nicole Craig,Q4 2023,2.5,Needs improvement
+505,Tasha Mayo,Q1 2023,1.2,Very good performance
+507,Elizabeth Turner,Q3 2023,2.1,Needs improvement
+509,Jared Parker,Q1 2023,3.6,Excellent performance
+510,Francisco Adkins,Q2 2023,2.3,Excellent performance
+512,Martin Alexander,Q4 2023,2.0,Very good performance
+513,Dr. Mark Perez DDS,Q1 2023,2.2,Needs improvement
+516,Travis Patterson,Q4 2023,2.6,Good performance
+518,Jessica Clark,Q2 2023,4.3,Excellent performance
+519,Miss Sherri Carter,Q3 2023,2.2,Needs improvement
+520,Angel Jones,Q4 2023,4.7,Good performance
+524,Nathan Schwartz,Q4 2023,3.3,Excellent performance
+526,Nathan Schwartz,Q2 2023,2.8,Needs improvement
+528,Richard Melton,Q4 2023,2.2,Needs improvement
+529,Katherine Stephenson,Q1 2023,3.4,Needs improvement
+530,Tina Torres,Q2 2023,3.8,Good performance
+534,Anthony Alvarado,Q2 2023,3.9,Needs improvement
+537,Kelly Hart,Q1 2023,3.1,Excellent performance
+540,Elizabeth Bailey,Q4 2023,1.5,Needs improvement
+541,Loretta Chang,Q1 2023,4.7,Needs improvement
+542,Alison Steele,Q2 2023,1.9,Good performance
+544,Joseph Payne,Q4 2023,1.4,Needs improvement
+548,Dr. Michael Griffin,Q4 2023,1.3,Needs improvement
+549,Catherine Washington,Q1 2023,2.3,Needs improvement
+551,April Clark,Q3 2023,2.4,Needs improvement
+557,Ian Perez,Q1 2023,3.0,Good performance
+558,James Richmond,Q2 2023,1.5,Excellent performance
+559,Holly Andrews,Q3 2023,1.8,Excellent performance
+560,Christina Blackburn,Q4 2023,1.9,Excellent performance
+564,April Clark,Q4 2023,1.4,Very good performance
+565,Jeffrey Ryan,Q1 2023,2.7,Good performance
+566,John Allen,Q2 2023,3.6,Needs improvement
+568,Shelley Ruiz,Q4 2023,2.3,Needs improvement
+571,Francisco Adkins,Q3 2023,1.8,Needs improvement
+572,Christian Russo,Q4 2023,4.3,Very good performance
+573,Joel Smith,Q1 2023,3.8,Very good performance
+575,Amy Hall,Q3 2023,3.8,Good performance
+576,Nichole Olson,Q4 2023,3.4,Excellent performance
+582,Jonathan Stewart,Q2 2023,4.1,Good performance
+583,Glen Williams,Q3 2023,1.3,Excellent performance
+584,Julia Anthony,Q4 2023,1.3,Excellent performance
+586,Sandra Black,Q2 2023,4.5,Very good performance
+587,Joel Smith,Q3 2023,1.9,Excellent performance
+588,William Young,Q4 2023,1.0,Needs improvement
+591,Terri Figueroa,Q3 2023,4.0,Very good performance
+593,Nathan Morgan,Q1 2023,4.4,Needs improvement
+594,Kyle Hawkins,Q2 2023,3.2,Needs improvement
+597,Rodney Campbell,Q1 2023,5.0,Very good performance
+599,Debra Williams,Q3 2023,4.6,Good performance
+601,Robert Davis,Q1 2023,3.6,Good performance
+602,Cameron Brown,Q2 2023,1.5,Excellent performance
+603,Sarah Ford,Q3 2023,2.1,Excellent performance
+604,Andrea Sanchez,Q4 2023,3.6,Very good performance
+606,Ray Hernandez,Q2 2023,2.8,Good performance
+607,Joshua Wilkerson,Q3 2023,3.8,Excellent performance
+608,Brittney Thompson,Q4 2023,2.9,Good performance
+611,Patricia Sanchez,Q3 2023,3.7,Good performance
+616,Jessica Proctor,Q4 2023,2.6,Very good performance
+618,Lindsey Anderson,Q2 2023,3.1,Needs improvement
+620,Christine Williams,Q4 2023,4.3,Excellent performance
+622,Mark Hines,Q2 2023,2.1,Good performance
+624,Sean Buchanan,Q4 2023,1.0,Excellent performance
+627,Jessica Mendoza,Q3 2023,3.4,Very good performance
+628,Michael Tran,Q4 2023,1.6,Very good performance
+629,Maria Hubbard,Q1 2023,2.1,Excellent performance
+635,Ross Watson,Q3 2023,3.1,Very good performance
+636,Kayla Calhoun,Q4 2023,2.8,Good performance
+637,Daniel Mendoza,Q1 2023,1.1,Good performance
+638,Lisa Gonzalez,Q2 2023,1.6,Very good performance
+640,Jessica Higgins,Q4 2023,4.3,Excellent performance
+643,Nicole Aguilar,Q3 2023,1.6,Needs improvement
+644,Cory Mann,Q4 2023,2.9,Good performance
+645,Phillip Lewis,Q1 2023,2.3,Very good performance
+646,Gary Horton,Q2 2023,3.2,Good performance
+647,Crystal Fernandez,Q3 2023,2.4,Very good performance
+648,Chad Johnson,Q4 2023,3.6,Very good performance
+649,Garrett Rogers,Q1 2023,3.2,Needs improvement
+650,Cameron Brown,Q2 2023,1.6,Excellent performance
+651,Mrs. Natalie Gardner MD,Q3 2023,4.3,Needs improvement
+652,John Frey,Q4 2023,3.9,Good performance
+654,Matthew Pham,Q2 2023,4.8,Needs improvement
+655,Sean Buchanan,Q3 2023,3.0,Needs improvement
+657,Lori Mejia,Q1 2023,1.2,Good performance
+661,Jessica Bishop,Q1 2023,2.3,Needs improvement
+662,Erica Kaufman,Q2 2023,2.6,Excellent performance
+663,Jason Ortiz,Q3 2023,1.3,Good performance
+666,Alexander Murray,Q2 2023,5.0,Good performance
+669,Lindsey Hoffman,Q1 2023,1.9,Needs improvement
+670,Julie Tran,Q2 2023,3.1,Very good performance
+671,Paula Moore,Q3 2023,4.8,Very good performance
+672,Diamond Gentry,Q4 2023,2.1,Good performance
+674,Kayla Mcfarland,Q2 2023,2.7,Very good performance
+675,Stephen Davis,Q3 2023,1.3,Very good performance
+676,William Young,Q4 2023,2.1,Good performance
+677,Yolanda Simpson,Q1 2023,2.3,Good performance
+678,Jason Jensen,Q2 2023,1.1,Very good performance
+681,Ashley Young,Q1 2023,3.8,Needs improvement
+684,Richard Diaz,Q4 2023,2.9,Very good performance
+685,Nicholas Herrera,Q1 2023,2.6,Excellent performance
+687,Jerry Gonzales,Q3 2023,2.8,Needs improvement
+692,Ryan Proctor,Q4 2023,2.1,Excellent performance
+695,Louis Cunningham,Q3 2023,3.3,Excellent performance
+697,Victor Davis,Q1 2023,1.7,Good performance
+698,Kyle Hawkins,Q2 2023,3.3,Good performance
+699,Elizabeth Jones,Q3 2023,4.5,Needs improvement
+707,Daniel Johnson,Q3 2023,3.7,Very good performance
+711,Theresa Perry,Q3 2023,1.2,Excellent performance
+712,Andre Evans,Q4 2023,3.6,Good performance
+715,Joshua Wilkerson,Q3 2023,2.3,Very good performance
+718,Amy Collier,Q2 2023,3.2,Excellent performance
+721,Marc Tucker,Q1 2023,4.4,Excellent performance
+723,Dana Daniel,Q3 2023,1.9,Good performance
+728,Dana Daniel,Q4 2023,3.2,Very good performance
+729,Connie Coffey,Q1 2023,4.5,Needs improvement
+730,Kevin Hernandez,Q2 2023,2.8,Needs improvement
+731,Rodney Campbell,Q3 2023,2.7,Very good performance
+734,Russell Ramirez,Q2 2023,4.1,Needs improvement
+739,Carolyn Taylor,Q3 2023,2.5,Excellent performance
+741,Donna Powell,Q1 2023,3.6,Very good performance
+742,Peter Beasley,Q2 2023,3.1,Good performance
+745,Gary Horton,Q1 2023,1.1,Good performance
+748,Amanda Anderson,Q4 2023,4.7,Very good performance
+749,William Moreno,Q1 2023,3.4,Excellent performance
+750,Michael Mckay,Q2 2023,2.4,Good performance
+751,Dr. Patricia Butler,Q3 2023,4.0,Very good performance
+753,Andrea Sanchez,Q1 2023,1.4,Good performance
+754,Jaime Reeves,Q2 2023,4.3,Very good performance
+756,Gabriela Thompson,Q4 2023,1.2,Very good performance
+757,Gina Newton,Q1 2023,3.0,Good performance
+758,Sharon Bennett,Q2 2023,2.6,Good performance
+759,Joseph Garrison,Q3 2023,3.2,Very good performance
+760,Christopher Davis,Q4 2023,2.1,Needs improvement
+761,Kelly Ruiz,Q1 2023,4.6,Good performance
+764,Alicia Reed,Q4 2023,2.4,Good performance
+765,Amber Owens,Q1 2023,3.5,Excellent performance
+767,Michelle Perez,Q3 2023,2.4,Excellent performance
+768,Julie Tran,Q4 2023,2.4,Good performance
+769,Dean Cooper,Q1 2023,1.9,Good performance
+771,Adam Villarreal,Q3 2023,1.0,Needs improvement
+772,Mary Rodgers,Q4 2023,4.7,Needs improvement
+773,Dr. Patricia Butler,Q1 2023,1.4,Good performance
+774,Tina Bowen,Q2 2023,3.8,Excellent performance
+775,Tara White,Q3 2023,3.1,Good performance
+776,Julia Walker,Q4 2023,1.3,Needs improvement
+777,Kimberly Jenkins,Q1 2023,4.1,Good performance
+779,Melinda Taylor,Q3 2023,4.3,Very good performance
+780,Michelle Miller,Q4 2023,4.4,Good performance
+782,Brian Hammond,Q2 2023,3.2,Needs improvement
+783,Brittney Frazier,Q3 2023,1.5,Needs improvement
+784,Sandra Novak,Q4 2023,4.7,Excellent performance
+785,Maurice Pearson,Q1 2023,4.3,Very good performance
+786,Stephen Lopez,Q2 2023,4.1,Good performance
+788,Carolyn Hughes,Q4 2023,2.8,Good performance
+789,Jennifer Cruz,Q1 2023,1.9,Good performance
+792,Michelle Edwards,Q4 2023,2.4,Excellent performance
+793,Richard Long,Q1 2023,3.3,Excellent performance
+794,Joseph Johnson,Q2 2023,3.8,Excellent performance
+795,Jaime Reeves,Q3 2023,3.6,Good performance
+797,Joshua Jones,Q1 2023,3.5,Excellent performance
+799,Andrew Aguirre,Q3 2023,2.9,Excellent performance
+800,Nancy Hartman,Q4 2023,1.2,Good performance
+802,Sharon Harvey,Q2 2023,3.6,Excellent performance
+803,Michael Walker,Q3 2023,2.9,Good performance
+804,Martin Alexander,Q4 2023,4.9,Good performance
+805,Anna Jacobs,Q1 2023,2.1,Excellent performance
+808,Sheri Hensley,Q4 2023,3.8,Very good performance
+814,Adam Villarreal,Q2 2023,1.8,Excellent performance
+815,Andrea Hall,Q3 2023,1.7,Good performance
+817,Victor Davis,Q1 2023,3.9,Very good performance
+818,Tyler Hart,Q2 2023,2.1,Needs improvement
+819,Kristin Rasmussen,Q3 2023,3.5,Good performance
+822,Elizabeth Torres MD,Q2 2023,4.7,Excellent performance
+824,Richard Hill,Q4 2023,1.8,Excellent performance
+826,Chad Hammond,Q2 2023,1.9,Excellent performance
+827,Margaret Peterson,Q3 2023,5.0,Very good performance
+828,Maria Hubbard,Q4 2023,3.9,Excellent performance
+830,Paula Moore,Q2 2023,3.4,Very good performance
+832,Natalie Sheppard,Q4 2023,3.0,Very good performance
+836,Erica Hancock,Q4 2023,4.8,Good performance
+839,Mary Ortega,Q3 2023,1.8,Very good performance
+840,Sandra Harrison,Q4 2023,4.7,Excellent performance
+843,William Holder,Q3 2023,4.0,Very good performance
+844,Peggy Fletcher,Q4 2023,3.9,Very good performance
+846,Donna Powell,Q2 2023,3.7,Excellent performance
+857,Kelli Hicks,Q1 2023,1.4,Needs improvement
+858,Sherry Lewis,Q2 2023,3.2,Excellent performance
+859,Jacqueline Peterson,Q3 2023,1.9,Needs improvement
+860,Eric Johnson,Q4 2023,1.7,Excellent performance
+861,Karen Bauer,Q1 2023,3.8,Needs improvement
+862,Sarah Cunningham,Q2 2023,4.4,Excellent performance
+864,Brian Townsend,Q4 2023,3.7,Good performance
+865,Nathan Morgan,Q1 2023,4.4,Excellent performance
+866,John Brown,Q2 2023,3.3,Good performance
+869,Robert Watson,Q1 2023,2.8,Good performance
+870,Theresa Perry,Q2 2023,3.2,Needs improvement
+872,Natasha Cox,Q4 2023,4.6,Needs improvement
+877,Anthony Price,Q1 2023,4.4,Excellent performance
+878,Deborah Williams,Q2 2023,1.2,Good performance
+880,Christine Hood,Q4 2023,3.7,Very good performance
+884,Miss Sherri Carter,Q4 2023,2.3,Needs improvement
+885,Diana Miller,Q1 2023,1.8,Needs improvement
+890,Anna Jacobs,Q2 2023,2.5,Good performance
+891,Dawn Carey,Q3 2023,3.6,Needs improvement
+892,Kelly Perkins,Q4 2023,1.5,Very good performance
+894,Dawn Johnson DDS,Q2 2023,3.6,Very good performance
+895,Dr. Michael Griffin,Q3 2023,1.9,Good performance
+898,Sean Bass,Q2 2023,1.2,Good performance
+901,Andrew Winters,Q1 2023,3.3,Very good performance
+902,Heidi Rocha,Q2 2023,1.7,Very good performance
+904,Elizabeth White,Q4 2023,4.3,Very good performance
+905,Johnny Wilson,Q1 2023,1.3,Needs improvement
+909,Jesse Ferguson,Q1 2023,1.3,Very good performance
+910,Dr. Mark Perez DDS,Q2 2023,4.2,Needs improvement
+912,Charles Carpenter,Q4 2023,2.2,Excellent performance
+913,Rebecca Rubio,Q1 2023,2.0,Very good performance
+915,Christopher Montgomery MD,Q3 2023,3.9,Needs improvement
+918,Whitney Stevens,Q2 2023,4.1,Good performance
+923,Donna Williams,Q3 2023,2.9,Needs improvement
+924,Richard Diaz,Q4 2023,2.3,Needs improvement
+925,Karen Fields,Q1 2023,1.5,Very good performance
+927,Andrew Sanchez,Q3 2023,3.1,Excellent performance
+929,Sandra Freeman,Q1 2023,3.2,Good performance
+932,Christine Williams,Q4 2023,1.4,Good performance
+935,Joseph Morris,Q3 2023,3.6,Needs improvement
+936,Alison Adams,Q4 2023,3.1,Needs improvement
+939,Margaret Edwards,Q3 2023,4.7,Good performance
+940,Claudia Craig,Q4 2023,3.7,Needs improvement
+941,Clifford Duncan,Q1 2023,3.7,Needs improvement
+943,Jimmy King,Q3 2023,4.9,Good performance
+949,Elizabeth Davis,Q1 2023,4.9,Excellent performance
+950,Crystal Fernandez,Q2 2023,3.3,Very good performance
+951,Michelle Miller,Q3 2023,3.8,Needs improvement
+952,Garrett Rogers,Q4 2023,2.2,Excellent performance
+953,Mark Hines,Q1 2023,1.2,Excellent performance
+955,Caleb Stephens,Q3 2023,4.0,Good performance
+956,Albert Johnson,Q4 2023,5.0,Needs improvement
+960,Patricia Leblanc,Q4 2023,1.7,Needs improvement
+962,Michael Casey,Q2 2023,2.7,Needs improvement
+965,Yolanda Simpson,Q1 2023,3.7,Needs improvement
+966,William Weaver,Q2 2023,4.3,Excellent performance
+970,Richard Diaz,Q2 2023,4.2,Very good performance
+974,Douglas Stevens,Q2 2023,2.8,Excellent performance
+975,Elijah Henderson,Q3 2023,2.2,Good performance
+976,Kelly Long,Q4 2023,4.0,Very good performance
+979,Savannah Thompson,Q3 2023,3.4,Good performance
+980,Joseph Garrison,Q4 2023,1.2,Good performance
+982,Stephanie Parks,Q2 2023,1.1,Good performance
+983,Sara Davis,Q3 2023,3.2,Good performance
+984,Matthew Peters,Q4 2023,1.8,Very good performance
+986,Brandon Harris,Q2 2023,2.7,Needs improvement
+987,Kelly Hughes,Q3 2023,4.3,Needs improvement
+989,Casey Moreno,Q1 2023,2.1,Needs improvement
+991,Victoria Fox,Q3 2023,1.7,Good performance
+998,David Hall,Q2 2023,3.8,Good performance
+1000,Valerie Peterson,Q4 2023,1.8,Needs improvement
+1001,Michelle Perez,Q1 2023,1.1,Very good performance
+1002,Glen Williams,Q2 2023,2.4,Very good performance
+1003,Michelle Miller,Q3 2023,1.6,Very good performance
+1004,Jason Sullivan,Q4 2023,3.6,Very good performance
+1006,Jacob Williamson,Q2 2023,5.0,Excellent performance
+1008,Kevin Hernandez,Q4 2023,2.7,Very good performance
+1011,Martin Allison,Q3 2023,4.1,Needs improvement
+1014,Timothy Roberts,Q2 2023,3.4,Good performance
+1016,Danielle Rose,Q4 2023,3.6,Needs improvement
+1019,Tara Wilkins,Q3 2023,1.2,Good performance
+1026,Jessica Higgins,Q2 2023,3.2,Very good performance
+1027,Patrick Hodges,Q3 2023,3.5,Needs improvement
+1028,Cory Mann,Q4 2023,2.5,Very good performance
+1030,David Mccarthy,Q2 2023,4.0,Excellent performance
+1031,Joseph Irwin,Q3 2023,2.4,Needs improvement
+1032,Connor Moreno,Q4 2023,4.6,Excellent performance
+1036,Jennifer Smith,Q4 2023,4.6,Very good performance
+1038,Erika Garcia,Q2 2023,3.6,Good performance
+1039,Alison Steele,Q3 2023,3.7,Excellent performance
+1040,Tonya Wilson,Q4 2023,1.2,Needs improvement
+1043,Christopher Bowman,Q3 2023,4.6,Very good performance
+1044,Douglas Rodriguez,Q4 2023,4.9,Needs improvement
+1046,Teresa Cook,Q2 2023,3.8,Very good performance
+1047,Miranda Rodriguez,Q3 2023,4.6,Good performance
+1049,Chris Bean,Q1 2023,2.4,Needs improvement
+1050,Donna Powell,Q2 2023,2.0,Very good performance
+1054,Taylor Cohen,Q2 2023,1.1,Good performance
+1057,Rebecca Foster,Q1 2023,2.9,Good performance
+1058,Brandi Larson,Q2 2023,1.9,Needs improvement
+1061,Linda Jones,Q1 2023,4.5,Very good performance
+1065,Elizabeth Hale,Q1 2023,2.6,Good performance
+1067,Brandon Guzman,Q3 2023,3.8,Excellent performance
+1068,David Harper,Q4 2023,3.1,Very good performance
+1071,Daniel Adams,Q3 2023,2.2,Needs improvement
+1072,Donna Meyer,Q4 2023,4.7,Needs improvement
+1074,Paul Moses,Q2 2023,4.2,Needs improvement
+1080,Marie Cook,Q4 2023,1.2,Excellent performance
+1081,Tyler Reid,Q1 2023,2.9,Good performance
+1083,Julia Anthony,Q3 2023,2.9,Excellent performance
+1084,Daniel Adams,Q4 2023,1.8,Good performance
+1087,Destiny Foster,Q3 2023,2.6,Needs improvement
+1088,Karen Fields,Q4 2023,2.3,Excellent performance
+1089,Andrew Santos,Q1 2023,4.4,Needs improvement
+1090,Amanda Anderson,Q2 2023,2.6,Needs improvement
+1097,Jennifer Sharp,Q1 2023,1.4,Very good performance
+1099,Gina Ayala,Q3 2023,3.9,Excellent performance
+1100,Eileen Fox,Q4 2023,3.8,Needs improvement
+1102,Kimberly Warner,Q2 2023,1.4,Needs improvement
+1105,Shawn Doyle,Q1 2023,3.4,Good performance
+1108,Dawn Johnson DDS,Q4 2023,4.8,Good performance
+1110,Patrick Kennedy,Q2 2023,1.2,Excellent performance
+1113,Jamie Bradley,Q1 2023,3.1,Very good performance
+1114,Ryan Proctor,Q2 2023,3.5,Excellent performance
+1115,Christine Brown,Q3 2023,4.7,Very good performance
+1119,Sarah Rivas,Q3 2023,3.2,Good performance
+1120,Michael George,Q4 2023,2.2,Good performance
+1123,John Bryant,Q3 2023,1.9,Excellent performance
+1125,Christina Brady,Q1 2023,4.7,Needs improvement
+1129,Chris Bean,Q1 2023,3.4,Good performance
+1130,Ian Perez,Q2 2023,2.1,Very good performance
+1131,Wendy Hernandez,Q3 2023,1.5,Very good performance
+1133,David Morris,Q1 2023,3.0,Excellent performance
+1134,Shelly Patterson,Q2 2023,2.1,Good performance
+1135,Robert Griffith,Q3 2023,4.6,Excellent performance
+1136,Anthony Riley,Q4 2023,1.1,Needs improvement
+1137,Matthew Hernandez,Q1 2023,4.6,Excellent performance
+1138,Patrick Avila,Q2 2023,1.2,Needs improvement
+1141,Brandon Harris,Q1 2023,4.4,Good performance
+1143,Jeffery Hansen,Q3 2023,3.2,Good performance
+1144,Michael Castaneda,Q4 2023,4.3,Very good performance
+1149,Nathan Schwartz,Q1 2023,4.0,Excellent performance
+1150,Sarah Lee,Q2 2023,1.1,Excellent performance
+1152,Amy Collier,Q4 2023,2.9,Excellent performance
+1154,David Bailey,Q2 2023,1.9,Needs improvement
+1155,Martin Harris,Q3 2023,1.0,Good performance
+1159,Alexis Wang,Q3 2023,1.9,Very good performance
+1160,Michael Tran,Q4 2023,4.9,Needs improvement
+1162,Madison Escobar,Q2 2023,3.7,Good performance
+1164,Kayla Mcfarland,Q4 2023,4.5,Needs improvement
+1165,Natalie Bright,Q1 2023,2.8,Needs improvement
+1166,Connie Coffey,Q2 2023,1.1,Very good performance
+1167,Tristan Newman,Q3 2023,2.3,Needs improvement
+1169,Dana Daniel,Q1 2023,3.0,Very good performance
+1170,Eric Lopez,Q2 2023,3.7,Excellent performance
+1171,Franklin Jarvis,Q3 2023,1.9,Good performance
+1172,Johnny Wilson,Q4 2023,1.0,Very good performance
+1175,Tammy Brewer,Q3 2023,1.4,Excellent performance
+1176,Stephanie Williams,Q4 2023,2.7,Good performance
+1177,Jessica Wilson,Q1 2023,3.2,Excellent performance
+1179,Diana Jensen,Q3 2023,3.5,Needs improvement
+1182,William Walker,Q2 2023,3.7,Needs improvement
+1186,Maria Klein,Q2 2023,2.3,Excellent performance
+1187,Jerry Macdonald,Q3 2023,3.4,Excellent performance
+1192,Dawn Carey,Q4 2023,3.9,Excellent performance
+1194,David Mcbride,Q2 2023,1.5,Needs improvement
+1195,Michelle Edwards,Q3 2023,2.5,Very good performance
+1197,Loretta Chang,Q1 2023,4.9,Very good performance
+1198,Samantha Serrano,Q2 2023,2.4,Needs improvement
+1199,Maurice Pearson,Q3 2023,3.4,Excellent performance

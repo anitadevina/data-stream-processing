@@ -1,0 +1,5 @@
+pyspark==3.5.2
+psycopg2-binary==2.9.9
+mysql-connector-python==9.0.0
+pandas
+pymysql
