@@ -8,7 +8,7 @@ def get_conn(conn_data):
             MongoClient(
                 f"mongodb://{conn_data.login}:{conn_data.password}@{conn_data.host}:{conn_data.port}/"
             )
-            if conn_data.login is not ""
+            if conn_data.login != ""
             else MongoClient(f"mongodb://{conn_data.host}:{conn_data.port}/")
         )
 

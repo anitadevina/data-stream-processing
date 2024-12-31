@@ -41,7 +41,7 @@ RUN apt-get update \
 
 ## set up java home. Debian 12 bookworm comes with jdk-17 as default.
 # jdk-11 and jdk-8 are unavailable. any attempt to install those will throw errors.
-ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-arm64
+ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 ENV PATH="${JAVA_HOME}/bin:${PATH}"
 RUN export JAVA_HOME
 
@@ -59,7 +59,7 @@ RUN export JAVA_HOME
 ## for regular apache-ariflow installation.
 USER airflow
 COPY requirements.txt /
-RUN pip install --no-cache-dir "apache-airflow==${AIRFLOW_VERSION}"  \
-  apache-airflow-providers-apache-spark \ 
+RUN pip install --no-cache-dir "apache-airflow==${AIRFLOW_VERSION}" \
+  apache-airflow-providers-apache-spark \
   apache-airflow-providers-mongo==3.0.0 \
-  -r /requirements.txt 
+  -r /requirements.txt

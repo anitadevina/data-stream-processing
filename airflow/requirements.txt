@@ -3,3 +3,5 @@ psycopg2-binary==2.9.9
 mysql-connector-python==9.0.0
 pandas
 pymysql
+gspread
+oauth2client

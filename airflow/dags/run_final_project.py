@@ -8,6 +8,7 @@ from datetime import datetime
 from modules.final_project.create_schema import *
 from dags.modules.final_project.insert_dim_fact_data import execute as insert_data
 from dags.modules.final_project.insert_stage_data import *
+from dags.modules.final_project.create_mart import *
 
 postgres_conn = Connection.get_connection_from_secrets("postgres-local")
 mysql_conn = Connection.get_connection_from_secrets("mysql-local")
@@ -27,9 +28,13 @@ def func_insert_stage_data():
         "recruitment_selection",
     )
 
-
 def func_insert_dwh_data():
     insert_data(postgres_conn, "dwh")
+
+def create_and_export_marts():
+    get_spark_session()
+    setup_google_sheets_credentials()
+    create_and_export_data_marts(postgres_conn)
 
 
 with DAG(
@@ -56,6 +61,11 @@ with DAG(
         python_callable=func_insert_dwh_data,
     )
 
+    create_and_export_task = PythonOperator(
+        task_id="create_and_export_data_marts",
+        python_callable=create_and_export_marts,
+    )
+
     end_task = EmptyOperator(task_id="end")
 
-start_task >> create_database_schema >> insert_stage_data >> insert_dwh_data >> end_task
+start_task >> create_database_schema >> insert_stage_data >> insert_dwh_data >> create_and_export_task >> end_task

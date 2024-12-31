@@ -96,7 +96,7 @@ def insert_unstructured_data(
 
     if collection_name:
         df_recruitments = pd.DataFrame(list(collection.find()))
-        df_recruitments = df_recruitments.drop(columns=["_id"], axis=1)
+        #df_recruitments = df_recruitments.drop(columns=["_id"], axis=1)
         df_recruitments = df_recruitments.rename(
             columns={
                 "CandidateID": "candidate_id",
