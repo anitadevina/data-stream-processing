@@ -25,7 +25,7 @@ def func_insert_stage_data():
         mongo_conn,
         postgres_conn,
         "dwh",
-        "recruitment_selection",
+        "kelompok2_data_recruitment_selection",
     )
 
 def func_insert_dwh_data():
