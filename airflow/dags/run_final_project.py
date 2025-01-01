@@ -10,26 +10,28 @@ from dags.modules.final_project.insert_dim_fact_data import execute as insert_da
 from dags.modules.final_project.insert_stage_data import *
 from dags.modules.final_project.create_mart import *
 
-postgres_conn = Connection.get_connection_from_secrets("postgres-local")
-mysql_conn = Connection.get_connection_from_secrets("mysql-local")
-mongo_conn = Connection.get_connection_from_secrets("mongo-local")
+postgres_conn = Connection.get_connection_from_secrets("postgres-server-ftde")
+mysql_conn = Connection.get_connection_from_secrets("mysql-server-ftde")
+mongo_conn = Connection.get_connection_from_secrets("mongo-server-ftde")
 
 
 def func_create_schema():
-    create_schema(postgres_conn, "dwh")
+    create_schema(postgres_conn, "kelompok2_dwh")
 
 
 def func_insert_stage_data():
-    insert_structured_data(postgres_conn, mysql_conn, "dwh")
+    insert_structured_data(postgres_conn, mysql_conn, "kelompok2_dwh")
     insert_unstructured_data(
         mongo_conn,
         postgres_conn,
-        "dwh",
+        "kelompok2_dwh",
         "kelompok2_data_recruitment_selection",
     )
 
+
 def func_insert_dwh_data():
-    insert_data(postgres_conn, "dwh")
+    insert_data(postgres_conn, "kelompok2_dwh")
+
 
 def create_and_export_marts():
     get_spark_session()
@@ -68,4 +70,11 @@ with DAG(
 
     end_task = EmptyOperator(task_id="end")
 
-start_task >> create_database_schema >> insert_stage_data >> insert_dwh_data >> create_and_export_task >> end_task
+(
+    start_task
+    >> create_database_schema
+    >> insert_stage_data
+    >> insert_dwh_data
+    >> create_and_export_task
+    >> end_task
+)
