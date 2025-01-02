@@ -34,8 +34,6 @@ def func_insert_dwh_data():
 
 
 def create_and_export_marts():
-    get_spark_session()
-    setup_google_sheets_credentials()
     create_and_export_data_marts(postgres_conn)
 
 
